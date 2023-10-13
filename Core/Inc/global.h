@@ -8,7 +8,6 @@
 #ifndef INC_GLOBAL_H_
 #define INC_GLOBAL_H_
 
-#include "software_timer.h"
 #include "main.h"
 
 #define LED_1 1
@@ -16,6 +15,6 @@
 #define LED_3 3
 #define LED_4 4
 extern int status;
-
+extern int dot;
 
 #endif /* INC_GLOBAL_H_ */
